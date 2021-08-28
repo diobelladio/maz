@@ -1,0 +1,66 @@
+::-moz-selection{
+    background:#90b890;
+    color:#e44f4f
+}::selection{
+    background:#90b890;
+    color:#e44f4f
+}
+
+html{
+    background:#30530f;
+    color:rgba(253, 253, 250, 0.932);
+    font-weight:300;
+    height:100%;
+    min-height:100%
+}
+
+main{
+    margin:2rem 1rem;
+    font-family:'Source Code Pro', monospace, sans-serif;
+    line-height:1.4
+}
+section{
+    border-left:.15rem solid;
+    max-width:25rem;
+    padding:.5rem .25rem .5rem 1.15rem
+}
+@media (min-width: 27rem){
+    section{
+        margin-top:10vh;
+        margin-left:5.55vw;
+        padding:.75rem .75rem .75rem 1.65rem
+    }
+}
+@media (min-width: 37.5rem){
+    section{
+        margin-top:18vh;
+        margin-left:10vw;
+        padding-left:1rem 1rem 1rem 2.25rem
+    }
+}
+h1{
+    font-weight:400;
+    margin-top:0;
+    text-transform:uppercase
+}
+
+p:last-child{
+    margin-bottom:0
+}
+a{color:rgba(241, 241, 233, 0.84);
+    text-decoration:none;
+    background-image:-webkit-gradient(l
+        inear, left top, left bottom, 
+        color-stop(50%, rgba(0,0,0,0.68)), 
+        color-stop(50%, transparent));
+    background-image:linear-gradient(to bottom, rgba(242, 243, 235, 0.68) 50%, transparent 50%);
+    background-repeat:repeat-x;
+    background-size:2px .1em;background-position:0 1.07em}a:focus,a:hover{color:rgba(0,0,0,0.76);
+    background-image:-webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0,0,0,0.84)), color-stop(50%, transparent));
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.84) 50%, transparent 50%);
+    font-weight:400
+}
+
+a:active{
+    position:relative;top:1px
+}
